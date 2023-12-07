@@ -5,17 +5,16 @@
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: lightgray;
-
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -38,7 +37,7 @@ code {
   margin: 20px;
   padding: 10px;
   border: 1px solid black;
- 
+
   width: 700px;
   height: 350px;
   display: flex;
@@ -57,7 +56,7 @@ code {
 
 .quote-generate-button {
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 span {
@@ -69,3 +68,14 @@ span {
   font-size: 18px;
   margin: 10px;
 }
+
+/* Responsive styles */
+
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+  .quote-block {
+    width: 100%;
+    margin: 10px;
+  }
+}
+
