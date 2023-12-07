@@ -13,8 +13,11 @@ const QuoteBlock = ({ getNewQuotes, quotes, quote }) => {
       </div>
 
       <div className="quote-text-block">
-        <span>"</span>
-        {quote?.text}
+        <div className="add-block">
+          <span>"</span>
+          {quote?.text}
+        </div>
+
         <i>- {quote?.author}</i>
       </div>
     </div>
